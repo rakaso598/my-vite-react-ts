@@ -1,8 +1,8 @@
 # 리액트, 타입스크립트, 비트를 활용하는 연습용 저장소.
 
 ### 구현한 컴포넌트
-- MyButton.tsx : 버튼을 클릭하면 알림(alert)이 나옵니다.
-- TextChanger.tsx : 버튼을 클릭하면 3번만 변경되는 텍스트가 나옵니다.
+- `MyButton.tsx` : 버튼을 클릭하면 알림(alert)이 나옵니다.
+- `TextChanger.tsx` : 버튼을 클릭하면 3번만 변경되는 텍스트가 나옵니다.
 
 ---
 # React + TypeScript + Vite
