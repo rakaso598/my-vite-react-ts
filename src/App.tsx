@@ -1,8 +1,7 @@
-import React from 'react';
-import './App.css'
-import MyButton from './components/MyButton';
-import TextChanger from './components/TextChanger';
-
+import React from "react";
+import "./App.css";
+import MyButton from "./components/MyButton";
+import TextChanger from "./components/TextChanger";
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
       <MyButton />
       <TextChanger />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
