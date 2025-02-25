@@ -1,15 +1,9 @@
-import { Hello } from "./Hello.jsx";
+import { Dice } from "./Dice.jsx";
 
 function App() {
-  const handleClick = () => {
-    alert(`안녕! 안녕!`);
-  };
   return (
     <>
-      <button onClick={handleClick}>안녕버튼</button>
-      <Hello />
-      <Hello />
-      <Hello />
+      <Dice color="red" num={1} />
     </>
   );
 }
