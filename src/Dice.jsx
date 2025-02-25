@@ -19,12 +19,17 @@ const DICE_IMAGES = {
   blue: [diceBlue1, diceBlue2, diceBlue3, diceBlue4, diceBlue5, diceBlue6],
   red: [diceRed1, diceRed2, diceRed3, diceRed4, diceRed5, diceRed6],
 };
-// DICE_IMAGES['red'][0]
 
 export const Dice = ({ color, num }) => {
-  // DICE_IMAGES[props.color][number]
-  const src = DICE_IMAGES[color][num - 1];
+
   const alt = `${color} ${num}`;
+  let src = '';
+
+  if (color === 'blue') {
+    src = DICE_IMAGES['blue'][num - 1];
+  } else {
+    src = DICE_IMAGES['red'][num - 1];
+  }
 
   return (
     <>
