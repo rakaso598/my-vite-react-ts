@@ -1,9 +1,6 @@
 import { Dice } from "./Dice.jsx";
 
-
-
-
-export const Board = ({ color, num, gameHistory }) => {
+export const Board = ({ color, num = 1, gameHistory }) => {
 
   return (
     <>
